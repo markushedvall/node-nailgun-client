@@ -10,6 +10,9 @@
     "nailgun",
     "client"
   ],
+    "files": [
+    "lib/"
+  ],
   "devDependencies": {
     "standard": "^12.x"
   },
