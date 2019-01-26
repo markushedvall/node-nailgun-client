@@ -60,4 +60,4 @@ Options:
 ```
 
 # License
-Apache v2
+Apache License 2.0
