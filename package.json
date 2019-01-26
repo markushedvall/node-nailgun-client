@@ -1,6 +1,6 @@
 {
   "name": "node-nailgun-client",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A Node.js Nailgun client API and CLI",
   "author": "Markus Hedvall <mackanhedvall@gmail.com>",
   "repository": "https://github.com/markushedvall/node-nailgun-client",
