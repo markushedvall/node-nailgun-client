@@ -10,8 +10,11 @@
     "commander": "^2.8.1"
   },
   "devDependencies": {
-    "eslint": "^1.0.0-rc-1",
-    "jscs": "^1.13.1"
+    "standard": "^12.x"
+  },
+  "scripts": {
+    "test": "npm run lint",
+    "lint": "standard"
   },
   "bin": {
     "node-nailgun-client": "index.js"
