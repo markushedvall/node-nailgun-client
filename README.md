@@ -1,10 +1,8 @@
 # node-nailgun-client
 
-A Node.js [Nailgun](http://martiansoftware.com/nailgun/) client API and CLI.
+A Node.js [Nailgun](http://martiansoftware.com/nailgun/) client API.
 
 The Nailgun client API lets you run java code in Nailgun directly from your javascript in a Node.js environment.
-
-A CLI is also provided in order to interact with Nailgun servers directly.
 
 # Install
 
@@ -44,19 +42,6 @@ process.stdin.pipe(nail.stdin);
 nail.on('exit', function(code) {
   process.exit(code);
 });
-```
-
-# CLI
-
-```
-Usage: node-nailgun-client [options] command [args]
-
-Options:
-
-  -h, --help              output usage information
-  -V, --version           output the version number
-  -s, --server [address]  the address of the nailgun server
-  -p, --port [port]       the port of the nailgun server
 ```
 
 # License
